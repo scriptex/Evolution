@@ -1,0 +1,44 @@
+<ion-view>
+	<ion-header-bar class="bar-stable">
+		<div class="buttons">
+			<button class="button button-icon ion-help-circled" ng-click="showHelp()"></button>
+		</div>
+
+		<h1 class="title">Evolution</h1>
+	</ion-header-bar>
+	
+	<ion-content class="padding" scroll="false">
+		<div id="content" ng-controller="GameController as ctrl">
+			<div class="game-head">
+				<div class="scores-container">
+					<div class="score-container">{{ctrl.game.currentScore}}</div>
+
+					<div class="best-container">{{ctrl.game.highScore}}</div>
+				</div>
+
+				<button ng-click='ctrl.newGame()' class="restart-button">New game</button>
+			</div>
+		  
+			<div id="game-container">
+				<div grid ng-model='ctrl.game' class="row" on-swipe-left="ctrl.game.move('left')" on-swipe-right="ctrl.game.move('right')" on-swipe-down="ctrl.game.move('down')" on-swipe-up="ctrl.game.move('up')"></div>
+
+				<div id="game-over" ng-if="ctrl.game.gameOver" class="row game-overlay">
+					<h2>Game over</h2>
+
+					<div class="lower">
+						<a class="retry-button" ng-click='ctrl.newGame()'>Try again</a>
+					</div>
+				</div>
+
+				<div id="win" ng-if="ctrl.game.win" class="row game-overlay">
+					<h2>You win!</h2>
+
+					<div class="lower">
+						<a class="retry-button" ng-click='ctrl.newGame()'>Try again</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
+
