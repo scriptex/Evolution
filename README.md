@@ -1,12 +1,6 @@
-[![GitHub stars](https://img.shields.io/github/stars/scriptex/Evolution.svg?style=social&label=Stars)](https://github.com/scriptex/Evolution)
-[![GitHub forks](https://img.shields.io/github/forks/scriptex/Evolution.svg?style=social&label=Fork)](https://github.com/scriptex/Evolution/network#fork-destination-box)
 [![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/Evolution.svg)](https://github.com/scriptex/Evolution/commits/master)
-[![license](https://img.shields.io/github/license/scriptex/Evolution.svg)](https://github.com/scriptex/Evolution)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/Evolution/README.md)](https://github.com/scriptex/Evolution/)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/scriptex/Evolution/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://github.com/scriptex/Evolution/graphs/commit-activity)
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/scriptex/)
 
 # Evolution
 
